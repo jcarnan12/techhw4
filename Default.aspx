@@ -23,7 +23,7 @@
           <center>
         <label for="uname">Username:</label>
         <input type="text" class="form-control" id="uname" placeholder="Enter username" name="uname" required>
-        <div class="invalid-feedback">Please fill out this field.</div>
+        <div class="invalid-feedback">Please fill out this field</div>
       <br />
         <label for="pwd">Password:</label>
         <input type="password" class="form-control" id="pwd" placeholder="Enter password" name="pswd" required>
