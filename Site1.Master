@@ -1,0 +1,60 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="techhw4.Site1" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <meta charset=”utf-8″>
+<meta http-equiv=”X-UA-Compatible” content=”IE=edge”>
+<meta name=”viewport” content=”width=device-width, initial-scale=1″>
+    <link href=”css/bootstrap.min.css” rel=”stylesheet” media="screen">
+
+    <link href="../assets/css/bootstrap.css" rel="stylesheet">
+
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <link rel='stylesheet' href='masterstyle.css' />
+
+    <nav class="navbar navbar-default">
+        
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <a class="navbar-brand" href="#">PetMeds System</a>
+                </div>
+                <ul class="nav navbar-nav">
+                    <li class="divider-vertical">
+                    <li class="active"><a href="#">Main</a></li>
+                    <li><a href="Default.aspx">Log In</a></li>
+                    <li><a href="contentpage2.aspx">Dispensary</a></li>
+                    <li><a href="contentpage3.aspx">Orders</a></li>
+
+                    </li>
+                </ul>
+           
+        </div>
+    </nav>
+
+</head>
+<body>
+    <form id="form1" runat="server">
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+     
+        </form>
+       <script src="../assets/js/jquery.js"></script>
+    <script src="../assets/js/bootstrap-transition.js"></script>
+    <script src="../assets/js/bootstrap-alert.js"></script>
+    <script src="../assets/js/bootstrap-modal.js"></script>
+    <script src="../assets/js/bootstrap-dropdown.js"></script>
+    <script src="../assets/js/bootstrap-scrollspy.js"></script>
+    <script src="../assets/js/bootstrap-tab.js"></script>
+    <script src="../assets/js/bootstrap-tooltip.js"></script>
+    <script src="../assets/js/bootstrap-popover.js"></script>
+    <script src="../assets/js/bootstrap-button.js"></script>
+    <script src="../assets/js/bootstrap-collapse.js"></script>
+    <script src="../assets/js/bootstrap-carousel.js"></script>
+    <script src="../assets/js/bootstrap-typeahead.js"></script>
+
+</body>
+</html>
